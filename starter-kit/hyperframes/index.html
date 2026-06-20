@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <link rel="stylesheet" href="autoae-patterns.css" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="autoae-patterns.js"></script>
+    <style>
+      html, body {
+        width: 1920px;
+        height: 1080px;
+        margin: 0;
+        overflow: hidden;
+        background: #071822;
+      }
+
+      #root {
+        width: 1920px;
+        height: 1080px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      const root = document.getElementById("root");
+      LaunchVideoPatterns.mountDecisionConstellation(root, {
+        title: "Behind every workflow is a decision",
+        leftTitle: "Multiple checks",
+        leftGhost: "before approval",
+      });
+
+      const tl = gsap.timeline();
+      LaunchVideoPatterns.animateDecisionConstellation(tl, root, 0);
+    </script>
+  </body>
+</html>

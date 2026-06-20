@@ -1,0 +1,214 @@
+:root {
+  --launch-black: #071822;
+  --launch-navy: #0e2f4f;
+  --launch-blue: #0967a8;
+  --launch-cyan: #14a6b8;
+  --launch-white: #f6f8fa;
+  --launch-ink: #1d2733;
+  --launch-muted: #667085;
+}
+
+.hf-launch-pattern {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 75% 20%, rgba(20, 166, 184, 0.18), transparent 34%),
+    radial-gradient(circle at 20% 75%, rgba(9, 103, 168, 0.22), transparent 36%),
+    var(--launch-black);
+  color: var(--launch-white);
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+.hf-launch-pattern::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.22;
+  background-image:
+    linear-gradient(rgba(227, 232, 239, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(227, 232, 239, 0.08) 1px, transparent 1px);
+  background-size: 96px 96px;
+}
+
+.pattern-oval-reveal,
+.decision-stage {
+  position: absolute;
+  inset: 0;
+}
+
+.oval-stage {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+
+.oval-wordline {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  display: flex;
+  gap: 24px;
+  transform: translate(-50%, -50%);
+  font-family: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.oval-word {
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.oval-word.is-accent {
+  color: var(--launch-cyan);
+}
+
+.oval-rails {
+  position: absolute;
+  width: 1320px;
+  height: 320px;
+  opacity: 0;
+}
+
+.oval-rail {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+  border: 3px solid transparent;
+  background:
+    linear-gradient(var(--launch-black), var(--launch-black)) padding-box,
+    linear-gradient(90deg, var(--launch-blue), var(--launch-cyan), #fff) border-box;
+  box-shadow: 0 0 24px rgba(20, 166, 184, 0.35);
+}
+
+.oval-rail.halo { width: 1500px; height: 320px; opacity: 0.18; }
+.oval-rail.outer { width: 1340px; height: 270px; opacity: 0.34; }
+.oval-rail.mid { width: 1180px; height: 218px; opacity: 0.48; }
+.oval-rail.inner { width: 1030px; height: 150px; opacity: 0.65; }
+.oval-rail.core { width: 980px; height: 88px; opacity: 1; }
+
+.oval-typing {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+.typing-cursor {
+  width: 2px;
+  height: 0.95em;
+  margin-left: 3px;
+  background: #fff;
+}
+
+.pattern-decision-constellation {
+  perspective: 1400px;
+}
+
+.decision-title {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 1.02;
+}
+
+.decision-doc {
+  position: absolute;
+  width: 250px;
+  height: 140px;
+  border: 1px solid rgba(227, 232, 239, 0.22);
+  border-radius: 10px;
+  background: rgba(246, 248, 250, 0.96);
+  color: var(--launch-ink);
+  box-shadow: 0 26px 70px rgba(0, 0, 0, 0.32);
+  overflow: hidden;
+}
+
+.decision-doc-title {
+  position: absolute;
+  left: 22px;
+  top: 20px;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--launch-blue);
+}
+
+.decision-doc-sub {
+  position: absolute;
+  left: 22px;
+  bottom: 18px;
+  font-size: 20px;
+  color: var(--launch-muted);
+}
+
+.decision-rows-panel {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 80px;
+  align-items: center;
+  padding: 118px;
+  opacity: 0;
+}
+
+.decision-left-copy {
+  font-family: "IBM Plex Sans Condensed", "IBM Plex Sans", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.04;
+}
+
+.decision-left-copy span {
+  display: block;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.decision-question-list {
+  display: grid;
+  gap: 18px;
+}
+
+.decision-question-row {
+  display: grid;
+  grid-template-columns: 68px 1fr;
+  align-items: center;
+  min-height: 74px;
+  padding: 12px 18px;
+  border: 1px solid rgba(227, 232, 239, 0.16);
+  border-radius: 10px;
+  background: rgba(246, 248, 250, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.decision-question-icon {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  background: rgba(20, 166, 184, 0.16);
+  border: 1px solid rgba(20, 166, 184, 0.46);
+  color: var(--launch-cyan);
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.decision-question-text {
+  font-size: 25px;
+  color: var(--launch-white);
+}
