@@ -2,7 +2,17 @@
 
 A reusable playbook for creating polished product-launch and transformation videos using structured storytelling, motion references, screenshots, voiceover, captions, and programmable motion graphics.
 
-[![Preview](media/preview-thumbnail.jpg)](media/snippet-01-opening-title.mp4)
+## Preview The Output
+
+These short GIFs show the type of motion system this playbook helps you plan, build, review, and package.
+
+| Opening title | Decision constellation |
+| --- | --- |
+| <img src="media/gifs/01-opening-title.gif" alt="Opening title animation preview" width="420"> | <img src="media/gifs/02-decision-constellation.gif" alt="Decision constellation animation preview" width="420"> |
+
+| Agentic engine | Judgement cards |
+| --- | --- |
+| <img src="media/gifs/03-agentic-engine.gif" alt="Agentic engine animation preview" width="420"> | <img src="media/gifs/04-judgement-cards.gif" alt="Judgement cards animation preview" width="420"> |
 
 ## What This Repo Teaches
 
@@ -75,6 +85,10 @@ The public media set is curated to be safe for sharing:
 Start here:
 
 - [Preview GIF](media/preview.gif)
+- [Opening title GIF](media/gifs/01-opening-title.gif)
+- [Decision constellation GIF](media/gifs/02-decision-constellation.gif)
+- [Agentic engine GIF](media/gifs/03-agentic-engine.gif)
+- [Judgement cards GIF](media/gifs/04-judgement-cards.gif)
 - [Opening snippet](media/snippet-01-opening-title.mp4)
 - [Decision constellation snippet](media/snippet-02-decision-constellation.mp4)
 - [Agentic engine snippet](media/snippet-03-agentic-engine.mp4)
