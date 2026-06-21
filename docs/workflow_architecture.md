@@ -13,22 +13,22 @@ The production stack can be understood as six cooperating layers:
 
 ## Architecture Diagram In Words
 
-`Brief + screenshots + examples + references -> Codex planning -> storyboard + prompts -> HyperFrames composition -> voiceover/captions sync -> QA -> snippets + GitHub packaging`
+`Brief + screenshots + examples + references -> AI-assisted planning -> storyboard + prompts -> HyperFrames composition -> voiceover/captions sync -> QA -> snippets + release assets`
 
 ## Role Of Each Part
 
-### Codex
+### AI-Assisted Planning
 
-Codex handled the orchestration layer:
+AI assistance can help with the orchestration layer:
 
 - read context and source files
 - summarize business logic
 - turn rough direction into structured plans
 - write prompts, scripts, and build notes
 - update timing and captions
-- help package the final work into a reusable repo
+- support documentation and release preparation
 
-This repo assumes a paid Codex setup because the original workflow relied on active file access, iterative generation, and HyperFrames-compatible build support.
+In practice, this works best when you treat AI as a planning and structuring partner rather than a replacement for direction, timing judgment, or visual taste.
 
 ### HyperFrames
 
@@ -89,7 +89,7 @@ Best practice:
 
 ### FFmpeg
 
-FFmpeg handles the packaging layer:
+FFmpeg handles the finishing layer:
 
 - extracting short snippets
 - generating a README preview GIF
@@ -110,4 +110,4 @@ The public repo is structured so each layer has a place:
 
 ## When Something Is Inferred
 
-Not every detail of the original production is visible as a single file. Where this repo reconstructs a likely workflow from artifacts, it describes that as a suggested pattern and notes that you should adapt it to your own toolchain.
+Not every detail of the original production is visible as a single file. Where this repo infers a likely workflow from the available materials, it describes that as a suggested pattern and notes that you should adapt it to your own toolchain.

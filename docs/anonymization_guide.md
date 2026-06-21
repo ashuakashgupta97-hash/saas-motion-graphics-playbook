@@ -1,4 +1,4 @@
-# Anonymization Guide
+# Public Release Checklist
 
 ## Goal
 
@@ -27,7 +27,7 @@ Avoid:
 
 - blurring the entire frame
 - destroying legibility
-- shipping a “sanitized” sample that no longer looks premium
+- shipping an over-redacted sample that no longer looks premium
 
 ## Text And Docs
 

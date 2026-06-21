@@ -49,7 +49,7 @@ Reusable patterns such as:
 
 become a compounding asset library for future launches.
 
-## 8. Public Packaging Is Its Own Project
+## 8. Public Documentation Needs Its Own Pass
 
 Turning a private production into a portfolio-ready repo takes separate work:
 

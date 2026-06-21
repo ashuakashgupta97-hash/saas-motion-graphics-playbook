@@ -25,7 +25,7 @@
 - are final centered lines free from duplicate subtitles
 - do captions fade in and out cleanly
 
-## Public Packaging
+## Public Release
 
 - no logo in public snippets
 - no company name in docs

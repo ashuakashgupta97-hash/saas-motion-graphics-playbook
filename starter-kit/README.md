@@ -1,6 +1,6 @@
 # Starter Kit
 
-This folder contains a lightweight, sanitized HyperFrames-oriented starter based on the scene patterns extracted from the original project.
+This folder contains a lightweight HyperFrames-oriented starter based on reusable scene patterns from the original production.
 
 Use it as:
 
@@ -11,5 +11,5 @@ Use it as:
 Contents:
 
 - [`hyperframes/index.html`](hyperframes/index.html)
-- [`hyperframes/autoae-patterns.js`](hyperframes/autoae-patterns.js)
-- [`hyperframes/autoae-patterns.css`](hyperframes/autoae-patterns.css)
+- [`hyperframes/launch-patterns.js`](hyperframes/launch-patterns.js)
+- [`hyperframes/launch-patterns.css`](hyperframes/launch-patterns.css)

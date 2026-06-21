@@ -153,11 +153,11 @@ Use FFmpeg for:
 
 ## Practical Toolchain
 
-This playbook reflects a setup that used:
+This playbook maps cleanly to a toolchain built around:
 
-- paid Codex access for orchestration, prompt iteration, and implementation support
-- HyperFrames connectivity for scene-based HTML video production
-- optional Remotion support for isolated scenes
-- FFmpeg for packaging and previews
+- AI-assisted planning for research, iteration, and scene structuring
+- HTML/CSS/GSAP motion for programmable scene builds
+- optional Remotion inserts for isolated scenes or previs
+- FFmpeg for delivery, previews, and snippet generation
 
-If your setup differs, adapt the method rather than copying the exact toolchain.
+If your setup differs, adapt the method rather than copying a specific stack one-to-one.

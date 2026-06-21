@@ -92,7 +92,7 @@ Prompt pattern:
 - ensure KPI animations appear exactly when spoken
 - avoid changing visuals unless timing requires it
 
-### Stage 7. Public Packaging
+### Stage 7. Public Documentation
 
 Goal:
 
@@ -103,7 +103,7 @@ Prompt pattern:
 - inspect the project deeply
 - extract the process
 - anonymize names and logos
-- package prompts, docs, templates, and safe snippets for GitHub
+- organize prompts, docs, templates, and safe snippets for public documentation
 
 ## Practical Prompting Rules
 

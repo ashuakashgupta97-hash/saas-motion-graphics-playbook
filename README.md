@@ -1,18 +1,18 @@
 # SaaS Motion Graphics Playbook
 
-Create premium AI-assisted product-launch and transformation videos with a repeatable workflow built around Codex, HyperFrames, screenshots, voiceover, captions, and web-motion references.
+A reusable playbook for creating polished product-launch and transformation videos using structured storytelling, motion references, screenshots, voiceover, captions, and programmable motion graphics.
 
 [![Preview](media/preview-thumbnail.jpg)](media/snippet-01-opening-title.mp4)
 
 ## What This Repo Teaches
 
-This repo packages a real-world motion-graphics production process into a reusable, public-friendly playbook. It shows how to move from a rough business story to a polished launch-style film using:
+This repo outlines a reusable motion-graphics production process for moving from a rough business story to a polished launch-style film using:
 
-- a paid Codex setup for research, planning, prompt iteration, and production support
-- HyperFrames connectivity as the main motion-graphics production surface
+- an AI-assisted planning workflow for research, planning, and prompt iteration
+- HyperFrames as the main motion-graphics production surface
 - optional Remotion inserts for isolated animation-heavy scenes or previs
 - screenshots, mockups, UI fragments, and voiceover-driven timing
-- FFmpeg for snippet creation, preview assets, and final packaging
+- FFmpeg for snippet creation, preview assets, and delivery support
 
 The structure is intentionally generic. You can adapt the same method to many stories:
 
@@ -46,9 +46,9 @@ Typical output:
 
 | Folder | Purpose |
 | --- | --- |
-| [`docs/`](docs) | End-to-end production method, architecture, prompting, anonymization, GitHub upload, lessons learned |
-| [`prompts/`](prompts) | Reusable prompts for strategy, visuals, build, sync, QA, snippets, and packaging |
-| [`storyboard/`](storyboard) | Example script, timestamped storyboard, visual plan, and voiceover/caption map |
+| [`docs/`](docs) | End-to-end production method, architecture, prompting, public release checks, and lessons learned |
+| [`prompts/`](prompts) | Reusable prompts for strategy, visuals, build, sync, QA, and snippets |
+| [`storyboard/`](storyboard) | Reference script, timestamped storyboard, visual plan, and voiceover/caption map |
 | [`templates/`](templates) | Copy-paste templates for scripts, direction, asset planning, and QA |
 | [`starter-kit/`](starter-kit) | Lightweight generic HyperFrames starter patterns inspired by the original production |
 | [`examples/`](examples) | Example of adapting the workflow to a different product story |
@@ -83,9 +83,9 @@ Start here:
 
 ## Important Notes
 
-- This repo documents a workflow that was built inside a paid Codex environment with HyperFrames connectivity.
+- This repo documents an AI-assisted planning and motion-graphics workflow built around programmable scenes, voiceover timing, and reusable visual patterns.
 - Remotion is treated here as optional support tooling, not the required primary renderer.
-- Some production details are reconstructed from project artifacts. When that happens, the docs mark them as guidance you should adapt to your own toolchain.
+- Some production details are inferred from working files and production notes. Where that happens, the docs frame them as guidance to adapt to your own toolchain.
 
 ## Quick Start
 

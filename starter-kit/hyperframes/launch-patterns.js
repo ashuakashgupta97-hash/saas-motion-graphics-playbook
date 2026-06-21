@@ -8,8 +8,8 @@
 
   function mountOvalReveal(root, options = {}) {
     const config = {
-      heading: "AI For Workflow Reviews",
-      tagline: "Intelligent decisions inside the tools teams already use.",
+      heading: "AI-Assisted Workflow Reviews",
+      tagline: "Decision support inside existing business workflows.",
       accentWordIndex: 0,
       ...options,
     };
